@@ -38,10 +38,29 @@ body {
   font-weight: 700;
   font-size: 18px;
   text-decoration: none;
+  position: relative;
 }
 
 .btn--dark {
   background: var(--dark-blue-color);
+}
+
+.btn--light {
+  background: var(--orange-color);
+}
+
+/* Icons */
+
+.enrol-icon::before {
+  content: url('images/enrol-now-icon.svg');
+  position: absolute;
+  top: 35%;
+  left: 32px;
+  transform: translateY(-50);
+}
+
+.enrol-icon {
+  padding-left: 60px;
 }
 
 /* Header */
