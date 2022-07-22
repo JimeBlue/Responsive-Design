@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@300;900&family=Roboto+Flex:opsz@8..144&display=swap');
+
+:root {
+  --poppins-font: 'Poppins', sans-serif;
+  --raleway-fonts: 'Raleway', sans-serif;
+
+  --orange-color: #da722c;
+  --dark-blue-color: #023047;
+  --dark-color: #070917;
+  --light-color: #e8f7fb;
+  --light-blue-color: #6f7dfb;
+}
