@@ -36,7 +36,7 @@ body {
   color: #fff;
   display: inline-block;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   position: relative;
 }
@@ -102,4 +102,41 @@ body {
   font-size: 16px;
   color: #ffffff;
   text-decoration: none;
+}
+
+/* hero section */
+.hero {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.left {
+  width: 457px;
+}
+
+.left__heading {
+  font-family: var(--raleway-fonts);
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 125%;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.left__content {
+  font-family: var(--poppins-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+/*  achievement cards*/
+
+.achievement-cards {
+  display: none;
 }
