@@ -135,6 +135,14 @@ body {
   color: #ffffff;
   margin-bottom: 30px;
 }
+
+.right {
+  align-self: flex-end;
+}
+.right__image {
+  height: 600px;
+  vertical-align: middle;
+}
 /*  achievement cards*/
 
 .achievement-cards {
